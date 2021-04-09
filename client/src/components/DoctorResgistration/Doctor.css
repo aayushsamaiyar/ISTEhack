@@ -1,0 +1,227 @@
+.registration{
+	
+	position: absolute;
+left: 2.08%;
+right: 10.39%;
+top: 4.01%;
+bottom: 91.36%;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 71px;
+line-height: 97px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.linetop{
+	background-image: url(linetop.svg);
+	position: absolute;
+left: 12.73%;
+right: 12.73%;
+top: 23.21%;
+bottom: 76.79%;
+
+border: 5px solid #68CA44;
+transform: rotate(0.16deg);
+}
+.lineno13{
+	background-image: url(Lineno13.svg);
+	position: absolute;
+width: 533.42px;
+height: 1429.99px;
+left: 623.02px;
+top: 409.5px;
+
+border: 9px solid rgba(135, 135, 135, 0.24);
+transform: rotate(0.22deg);
+}
+.firstName{
+	background-image: url(FirstName.svg);
+	position: absolute;
+width: 262px;
+height: 40px;
+left: 180px;
+top: 349px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.lastName{
+	background-image: url(LastName.svg);
+	position: absolute;
+width: 254px;
+height: 40px;
+left: 176px;
+top: 480px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.userName{
+	background-image: url(Username.svg);
+	position: absolute;
+width: 242px;
+height: 39px;
+left: 180px;
+top: 610px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.password{
+	background-image: url(Password.svg);
+	position: absolute;
+width: 234px;
+height: 40px;
+left: 176px;
+top: 720px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+}
+.speciality{
+	background-image: url(Speciality.svg);
+	position: absolute;
+width: 233px;
+height: 50px;
+left: 176px;
+top: 850px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.address{
+	background-image: url(Address.svg);
+	position: absolute;
+width: 200px;
+height: 40px;
+left: 180px;
+top: 950px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+
+}
+.clinicName{
+	background-image: url(ClinicName.svg);
+	position: absolute;
+width: 286px;
+height: 40px;
+left: 167px;
+top: 1080px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+}
+.aboutyou{
+	background-image: url(Aboutyou.svg);
+	position: absolute;
+width: 250px;
+height: 47px;
+left: 167px;
+top: 1210px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.education{
+	background-image: url(Educationalbackground.svg);
+	position: absolute;
+width: 257px;
+height: 110px;
+left: 148px;
+top: 1350px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 65px;
+
+color: #FFFFFF
+
+}
+.opentime{
+	background-image: url(Opentime.svg);
+	position: absolute;
+width: 252px;
+height: 47px;
+left: 167px;
+top: 1530px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.closetime{
+	background-image: url(Closetime.svg);
+	position: absolute;
+width: 252px;
+height: 40px;
+left: 158px;
+top: 1730px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
