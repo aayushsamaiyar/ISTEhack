@@ -1,13 +1,17 @@
 import './App.css';
 import Midhome from './components/MiddleHomeComp/Midhome';
+import Home from './components/HomeComp/Home';
+import Doctor from './components/DoctorResgistration/Doctor';
+import {Switch, Route, Redirect } from "react-router-dom";
 
-import Navbar from './components/NavbarComp/Navbar';
 function App() {
   return (
-    <div className="App">
-        <Navbar/>
-        <Midhome/>
-    </div>
+    <>
+    	<Switch>
+    	<Route exact path="/" component={Home}/>
+		<Route exact path="/doctor" component={Doctor}/>
+        </Switch>
+    </>
   );
 }
 

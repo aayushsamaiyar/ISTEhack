@@ -1,0 +1,394 @@
+.registration{
+	
+	position: absolute;
+left: 2.08%;
+right: 10.39%;
+top: 16.01%;
+bottom: 91.36%;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 71px;
+line-height: 97px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.linetop{
+	background-image: url(linetop.svg);
+	position: absolute;
+left: 12.73%;
+right: 12.73%;
+top: 37.21%;
+bottom: 76.79%;
+
+border: 5px solid #68CA44;
+transform: rotate(0.16deg);
+}
+.lineno13{
+	background-image: url(Lineno13.svg);
+	position: absolute;
+width: 533.42px;
+height: 1429.99px;
+left: 623.02px;
+top: 409.5px;
+
+border: 9px solid rgba(135, 135, 135, 0.24);
+transform: rotate(0.22deg);
+}
+.firstName{
+	background-image: url(FirstName.svg);
+	position: absolute;
+width: 262px;
+height: 40px;
+left: 180px;
+top: 349px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.lastName{
+	background-image: url(LastName.svg);
+	position: absolute;
+width: 254px;
+height: 40px;
+left: 176px;
+top: 480px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.userName{
+	background-image: url(Username.svg);
+	position: absolute;
+width: 242px;
+height: 39px;
+left: 180px;
+top: 610px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.password{
+	background-image: url(Password.svg);
+	position: absolute;
+width: 234px;
+height: 40px;
+left: 176px;
+top: 720px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+}
+.speciality{
+	background-image: url(Speciality.svg);
+	position: absolute;
+width: 233px;
+height: 50px;
+left: 176px;
+top: 850px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.address{
+	background-image: url(Address.svg);
+	position: absolute;
+width: 200px;
+height: 40px;
+left: 180px;
+top: 950px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+
+}
+.clinicName{
+	background-image: url(ClinicName.svg);
+	position: absolute;
+width: 286px;
+height: 40px;
+left: 167px;
+top: 1080px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+}
+.aboutyou{
+	background-image: url(Aboutyou.svg);
+	position: absolute;
+width: 250px;
+height: 47px;
+left: 167px;
+top: 1210px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.education{
+	background-image: url(Educationalbackground.svg);
+	position: absolute;
+width: 257px;
+height: 110px;
+left: 148px;
+top: 1350px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 65px;
+
+color: #FFFFFF
+
+}
+.opentime{
+	background-image: url(Opentime.svg);
+	position: absolute;
+width: 252px;
+height: 47px;
+left: 167px;
+top: 1530px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.closetime{
+	background-image: url(Closetime.svg);
+	position: absolute;
+width: 252px;
+height: 40px;
+left: 158px;
+top: 1730px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 72px;
+
+color: #FFFFFF;
+
+}
+.input1{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 349px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+
+.input2{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 480px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input3{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 610px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input4{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 720px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input5{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 850px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input6{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 950px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input7{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 1080px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input8{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 1210px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input9{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 1350px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input10{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 1530px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.input11{
+	position: absolute;
+width: 300px;
+height: 59px;
+left: 600px;
+top: 1730px;
+
+/* 2 gray */
+
+background: #EDEFF2;
+border-radius: 2px;
+}
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+width: 500px;
+height: 59px;
+left: 300px;
+top: 1870px;
+}
+.button2 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+width: 500px;
+height: 59px;
+left: 300px;
+top: 2010px;
+}
