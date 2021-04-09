@@ -11,8 +11,18 @@ const Doctor = () =>{
 				</div>
 				<div className="linetop">
 				</div>
-				<div className="lineno13">
-				</div>
+				<input type="text" className="input1"/>
+				<input type="text" className="input2"/>
+				<input type="text" className="input3"/>
+				<input type="text" className="input4"/>
+				<input type="text" className="input5"/>
+				<input type="text" className="input6"/>
+				<input type="text" className="input7"/>
+				<input type="text" className="input8"/>
+				<input type="text" className="input9"/>
+				<input type="text" className="input10"/>
+				<input type="text" className="input11"/>
+
 				<div className="firstName">
 				</div>
 				<div className="lastName">
@@ -35,6 +45,9 @@ const Doctor = () =>{
 				</div>
 				<div className="closetime">
 				</div>
+				<button className="button1"> Register </button>
+				<br/>
+				<button className="button2"> Already Registered? Sign In</button>
 			</div>
 		</>
 
