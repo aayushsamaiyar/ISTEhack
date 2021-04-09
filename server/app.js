@@ -14,12 +14,14 @@ mongoose.connect(`mongodb://localhost/node_template`,{useNewUrlParser:true, useU
 
 app.use('/user',auth)
 
-const port = process.env.PORT || 5000
+
 
 app.get('/', (req,res) => {
     res.status(200).json({message : 'Welcome'})
 })
 
+const port = process.env.PORT || 5000
+
 app.listen(port, () => {
-    console.log('Server started at localhost:5000');
+    console.log('Server started at localhost:'+port);
 })
