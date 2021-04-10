@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const DoctorSchema = new mongoose.Schema({
-    userId: {
+    username: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
       unique: true,
@@ -40,7 +40,12 @@ const DoctorSchema = new mongoose.Schema({
     CloseTime: {
         timestamps:true,
         required: true 
-    }
+    },
+    role:{
+      type : String,
+      enum : ['Doctor'],
+      required:true
+  }
   });
 
 models.export = mongoose.model('doctor',DoctorSchema)

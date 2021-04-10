@@ -1,10 +1,10 @@
 const mongoose = require('express');
 
 const PatientSchema = new mongoose.Schema({
-    uid:{
+    username:{
         type: mongoose.Schema.Types.ObjectId, 
         ref: 'User',
-        required: 'true' 
+        required: true 
     },
     fanme: {
         type: String,
@@ -21,6 +21,11 @@ const PatientSchema = new mongoose.Schema({
     sex:{
         type: String,
         required: true
+    },
+    role:{
+        type : String,
+        enum : ['Patient'],
+        required:true
     }
 });
 
