@@ -4,6 +4,7 @@ const isPatient = (req,res,next) => {
     }
     else{
         res.status(401).json({message: "you are not a Patient!! please REGISTER."});
+        return;
     }
 }
 

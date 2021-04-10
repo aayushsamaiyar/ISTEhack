@@ -32,10 +32,12 @@ const DoctorSchema = new mongoose.Schema({
         rquired: true
     },
     OpenTime:{
-        timestamps : true
+        type: Date,
+        default: Date.now
     },
     CloseTime: {
-        timestamps: true
+      type: Date,
+      default: Date.now
     },
     role:{
       type : String,
@@ -44,4 +46,4 @@ const DoctorSchema = new mongoose.Schema({
   }
   });
 
-models.export = mongoose.model('doctor',DoctorSchema)
+module.exports = mongoose.model('doctor',DoctorSchema) 

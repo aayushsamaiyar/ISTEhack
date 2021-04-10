@@ -5,6 +5,7 @@ const isDoctor = (req, res, next) => {
     }
     else {
         res.status(401).json({ message: "You are not a Doctor" })
+        return;
     }
 
 }
