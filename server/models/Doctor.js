@@ -1,11 +1,10 @@
-const mongoose = require('mongoose');
+const mongoose   = require('mongoose'), timestamps = require('mongoose-timestamp');
 
 const DoctorSchema = new mongoose.Schema({
     username: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
       unique: true,
-      max = 10,
       required: true
     },
     password: {
@@ -14,7 +13,6 @@ const DoctorSchema = new mongoose.Schema({
     },
     name: {
         type: String,
-        maxlength = 20,
         required: true
       },
     speciality: {
@@ -34,12 +32,10 @@ const DoctorSchema = new mongoose.Schema({
         rquired: true
     },
     OpenTime:{
-        timestamps:true,
-        required: true 
+        timestamps : true
     },
     CloseTime: {
-        timestamps:true,
-        required: true 
+        timestamps: true
     },
     role:{
       type : String,
