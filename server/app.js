@@ -18,7 +18,7 @@ const isPatient = require('./isPatient');
 const bodyParser = require('body-parser');
 
 app.use(cookieParser());
-mongoose.connect('mongodb+srv://AayushSamaiyar:${process.env.PASSWORD}@cluster0.awh5s.mongodb.net/test',{
+mongoose.connect('mongodb+srv://AayushSamaiyar:${process.env.PASSWORD}@cluster0.awh5s.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
     useNewUrlParser:true, 
     useUnifiedTopology:true, 
     useCreateIndex: true,
@@ -40,6 +40,13 @@ app.get('/login',(req,res)=>{
 
 app.get('/register',(req,res)=>{
     res.status(200).json({message:'Welcome to register page'});
+})
+
+app.get('/singlefile', (req,res) => {
+    res.status(200).json({message:'welcome to upload'});
+})
+app.get('/multiplefile', (req,res) => {
+    res.status(200).json({message:'welcome to upload'});
 })
 
 app.use(bodyParser.json())

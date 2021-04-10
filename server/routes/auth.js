@@ -5,15 +5,15 @@ const JWT = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const passport = require('passport');
 
-const signtoken = (id) => {
+const signToken = (id) => {
     return JWT.sign({
         iss: 'Aayush Samaiyar',
         sub: id
-    }, `${process.env.SECRET}`, {expressIn: '1h'})
+    }, `${process.env.SECRET}`, {expressIn: '10h'})
 }
 
 router.post('/register', async (req, res) => {
-    const { fname, lname, password, username, role } = req.body
+    const { fname, lname, username, password, role } = req.body
     Users.findOne({ username }, (err, emailPresent) => {
         if (err) {
             //console.log('Error ' + err)
@@ -22,7 +22,7 @@ router.post('/register', async (req, res) => {
         if (emailPresent)
             res.status(400).json({ message: { msg: "username is already taken", msgError: true } });
         else {
-            const newUser = new Users({ name, password, username, role });
+            const newUser = new Users({ fname, lname, username, password, role });
             newUser.save(err => {
                 if (err) {
                     //console.log('Error ' + err)
