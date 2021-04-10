@@ -12,10 +12,34 @@ const signtoken = (id) => {
     }, `${process.env.SECRET}`, {expressIn: '1h'})
 }
 
-router.post('/login', (req,res)=>{
-    const { email, password } = req.body
+router.post('/register', async (req, res) => {
+    const { fname, lname, password, username, role } = req.body
+    Users.findOne({ username }, (err, emailPresent) => {
+        if (err) {
+            //console.log('Error ' + err)
+            res.status(500).json({ message: { msg: "Error has occured", msgError: true } });
+        }
+        if (emailPresent)
+            res.status(400).json({ message: { msg: "username is already taken", msgError: true } });
+        else {
+            const newUser = new Users({ name, password, username, role });
+            newUser.save(err => {
+                if (err) {
+                    //console.log('Error ' + err)
+                    res.status(500).json({ message: { msg: "Error has occured", msgError: true } });
+                }
+                else
+                    res.status(201).json({ message: { msg: "Account successfully created", msgError: false } });
+            })
+        }
+    });
 
-    Users.findone({email}, (err,user)=>{
+})
+
+router.post('/login', (req,res)=>{
+    const { username, password } = req.body
+
+    Users.findone({username}, (err,user)=>{
         if(err){
             res.status(500).json({message:{msg: "Error has occured",msgError: true}});
         }
